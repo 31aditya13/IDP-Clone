@@ -1,0 +1,12 @@
+.galleryImages{
+    display: grid;
+    grid-row-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-items: center;
+}
+
+.galleryImages img{
+    cursor: pointer;
+}
+
